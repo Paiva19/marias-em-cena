@@ -1,7 +1,36 @@
 <!DOCTYPE html>
+<style>
+
+    .header {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 196px;
+        border: 1px solid #c3c3c3;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .products {
+        margin-top: 32px;
+    }
+
+</style>
+
 <html>
-    <body>
-        <img src="images/title_image.png" alt="Marias em Cena">
-        <p>Cartão virtual Marias em Cena! Novidades em breve!</p>
+    <header >
+        <img class="header" src="../images/title_image.png" height="196px" alt="Marias em Cena">
+    </header>
+
+    <body class="products">
+        
+        <div id="item">
+            <img id="item-photo" src="../images/carteiras_01.png" alt="carteiras_01">
+            <h2 id="item-title">Carteira de patchwork</h2>
+            <h4 id="see-on-elo7">Ver no Elo7</h4>
+        </div>
+
     </body>
 </html>
