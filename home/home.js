@@ -42,7 +42,7 @@
           '<td>' + '<h2>' + object.title + '</h2>' +
           '<h4>' + object.description + '</h4>' + '</td>' +
           '<td> </td>' +
-          '<td> <a href=' + object.eloUrl + ' target="_blank"> <img id=\"itemLogo\" height=\"40\" src=\"../images/elo7_logo.png\"/></a></td>'
+          '<td> <a href=' + object.eloUrl + ' target="_blank"> <img id=\"itemLogo\" height=\"40\" src=\"../images/elo7_logo.png\"/></a></td>' +
           '<td> </td>' +
           '<td> <a href=' + object.facebookUrl + ' target="_blank"> <img id=\"itemLogo\" height=\"40\" src=\"../images/facebook_logo.png\"/></a></td>';
           table.appendChild(tr);
